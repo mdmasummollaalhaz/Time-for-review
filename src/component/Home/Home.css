@@ -1,0 +1,10 @@
+.reviews h2{
+    margin-bottom: 32px;
+    font-size: 42px;
+}
+.review-btn{
+    transition: 0.3s ease;
+}
+.review-btn:hover{
+    color: black;
+}

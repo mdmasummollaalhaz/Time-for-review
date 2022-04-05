@@ -1,0 +1,29 @@
+.inner-hero{
+    background-color: #ff814c;
+    padding: 64px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.charts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 64px 0;
+}
+.title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.chart{
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .charts{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 64px 0;
+    }
+    
+  }
